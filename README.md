@@ -1,12 +1,28 @@
-# React + Vite
+🖼 NFT Minting DApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A decentralized application (dApp) that allows users to mint their own NFTs directly from the browser.
+The app supports manual IPFS metadata upload as well as automatic Pinata uploads for images + metadata.
 
-Currently, two official plugins are available:
+Built with:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Solidity (ERC-721)
 
-## Expanding the ESLint configuration
+Hardhat for smart contract deployment
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React + Vite/Next.js frontend
+
+Ethers.js v6 for Web3 integration
+
+Pinata IPFS API for decentralized storage
+
+🚀 Features
+
+Connect with MetaMask (Sepolia testnet)
+
+Upload images & generate IPFS metadata
+
+Mint NFTs with dynamic tokenURI
+
+Supports both manual IPFS links & automatic uploads
+
+Simple & responsive frontend
