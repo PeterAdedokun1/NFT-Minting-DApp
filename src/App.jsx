@@ -7,10 +7,9 @@ import { ethers } from "ethers";
 
 const nftABI = nftABIArtifact.output.abi;
 // Replace with your deployed NFT contract address
-const nftAddress = "0xF13037b8dFbc851bA233bB8B463952596669a949";
-const PINATA_API_KEY = "153bebdab67b8f230dfd";
-const PINATA_SECRET_API_KEY =
-  "9ca058fcbd63e0516eefe0f44243abdf3c42d8c59af436a2ef0fd34bd5484784";
+const nftAddress = import.meta.env.VITE_NFT_CONTRACT_ADDRESS
+const PINATA_API_KEY = import.meta.env.VITE_PINATA_API_KEY
+const PINATA_SECRET_API_KEY =import.meta.env.VITE_PINATA_SECRET_API_KEY
 function App() {
   const [account, setAccount] = useState(null);
   const [contract, setContract] = useState(null);
